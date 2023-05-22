@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
+    }
+    div{
+        display: inline-block;
+        width: 80vw;
+    }
+
+    #image{
+        float: left;
+        width: 30%;
+        height: 500px;
+        background-position: center;
+        
+    }
+    #container{
+        float: right;
+        width: 70%;
+        height: 500px;
+    }
+}
+@media screen and (min-width:992px){
+    body{
+        background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
+    }
+    div{
+        display: inline-block;
+        width: 950px;
+    }
+
+    #image{
+        float: left;
+        width: 50%;
+        height: 500px;
+        background-position: center;
+        
+    }
+    #container{
+        float: right;
+        width: 50%;
+        height: 500px;
+    }
+}
