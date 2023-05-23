@@ -3,7 +3,7 @@
 :root{
     --cor01: #5f2C82;
     --cor02: #49a09d;
-    --cor03: #92c5a9f3;
+    --cor03: #6ad3b2;
     --cor04: #3ba069f3;
 }
 
@@ -17,19 +17,12 @@ body, html{
     background-color: var(--cor01);
     height: 100vh;
 }
-section{
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-    height: 400px;
-    
-}
 main{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-
+    
     overflow: hidden; /* CERTO */
     border-radius: 20px;
     width: 350px;
@@ -38,6 +31,12 @@ main{
     /* background-color: green; */
     transition: width 0.1s, height 0.1s;
     transition-timing-function: ease;
+}
+section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 400px;
 }
 #image{
     display: block;
@@ -63,4 +62,53 @@ main{
     text-align: center;
     padding: 10px;
     padding-bottom: 20px;
+}
+div.campo{
+    background-color: var(--cor01);
+    margin-top: 7px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+form input[type=submit]{
+    display: block;
+    font-size: 1em;
+    margin: auto;
+    margin-top: 7px;
+    width: 100%;
+    height: 40px;
+    color: rgb(252, 252, 252);
+    background-color: var(--cor02);
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+form input[type=submit]:hover{
+    background-color: var(--cor03);
+}
+a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 7px;
+    width: 100%;
+    height: 40px;
+    color: var(--cor02);
+    border: 1px solid var(--cor02);
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+a.botao:hover{
+    background-color: var(--cor03);
+    color: white;
+    border: none;
+}
+.material-symbols-outlined{
+    position: relative;
+    top: 7px;
+    left: 3px;
+
+    color: white;
+    padding: 5px;
 }
