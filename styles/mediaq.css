@@ -4,7 +4,7 @@
     body{
         background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
     }
-    div{
+    main{
         display: inline-block;
         width: 80vw;
     }
@@ -16,7 +16,7 @@
         background-position: center;
         
     }
-    #container{
+    #form{
         float: right;
         width: 70%;
         height: 500px;
@@ -26,21 +26,27 @@
     body{
         background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
     }
-    div{
+    main{
         display: inline-block;
         width: 950px;
     }
 
     #image{
-        float: left;
+        float: right;
         width: 50%;
         height: 500px;
         background-position: center;
         
     }
-    #container{
-        float: right;
+    #form{
+        float: left;
         width: 50%;
         height: 500px;
+    }
+    #form h1{
+        font-size: 2.1em;
+    }
+    #form p{
+        font-size: 1.2em;
     }
 }

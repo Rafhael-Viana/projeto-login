@@ -14,34 +14,24 @@
 
     </header>
     <main>
-        <div>
             <section id="image"></section>
-            <section id="container">
+            <section id="form">
                 <h1>Login</h1>
                 <p>Seja bem vindo. Para acessar sua conta insira usuário e senha.</p>
-                <form action="cadastro.js" method="post" class="form" autocomplete="on">
-                    <label for="iuser"><span class="material-symbols-outlined">
-                        person
-                        </span>
-                    </label>
-                    <input type="text" name="user" id="iuser" required placeholder="  Usuário" maxlength="50">
-                </form>
-                <form action="cadastro.js" method="post" class="form" autocomplete="on">
-                    <label for="iuser"><span class="material-symbols-outlined">
-                        vpn_key
-                        </span>
-                    </label>
-                    <input type="password" name="senha" id="isenha" required placeholder="  Senha" maxlength="50">
-                </form>
-                <form action="cadastro.js" method="post" id="entrar">
+                <form action="cadastro.js" method="post" id="forml" autocomplete="on">
+                    <div class="campo">
+                        <label for="iuser"><span class="material-symbols-outlined">person</span></label>        
+                        <input type="email" name="user" id="iuser" required placeholder="Usuário" autocomplete="email" maxlength="30">
+                    </div>
+                    <div class="campo">
+                        <label for="isenha"><span class="material-symbols-outlined">vpn_key</span></label>
+                        <input type="password" name="senha" id="isenha" required placeholder="Usuário" autocomplete="current-password" minlength="8" maxlength="20">
+                    </div>
                     <input type="submit" value="Entrar">
-                </form>
-                <form action="cadastro.js" method="post" id="forgot">
-                    <input type="submit" value="Esqueci minha senha">
+                    <a href="esqueci.html">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
+                    
                 </form>
             </section>
-        </div>
-        
     </main>
 </body>
 </html>
