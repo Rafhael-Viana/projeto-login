@@ -21,6 +21,9 @@
         width: 70%;
         height: 500px;
     }
+    #form p{
+        margin-bottom: 50px;
+    }
 }
 @media screen and (min-width:992px){
     body{
@@ -48,5 +51,6 @@
     }
     #form p{
         font-size: 1.2em;
+        margin-bottom: 25px;
     }
 }
