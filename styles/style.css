@@ -121,9 +121,6 @@ a.botao:hover{
     height: 40px;
     transform: translateY(-7px);
 }
-.campo input:hover{
-    
-}
 #mail{
     position: relative;
     top: 7px;
